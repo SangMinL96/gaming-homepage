@@ -1,0 +1,125 @@
+.home_header {
+  background-color: #080808;
+  height: 3.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+}
+.header_container {
+  width: 1150px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  color: white;
+  font-weight: 1.2rem;
+}
+
+.header_icon {
+  display: flex;
+}
+.header_icon li {
+  margin-right: 1em;
+}
+.header_icon li:nth-child(1) span:nth-child(2) {
+  font-size: 1.02em;
+}
+.header_icon .Slash {
+  margin-left: 1.15em;
+  color: #585757;
+}
+.nav_icon {
+  font-size: 0.9rem;
+  display: flex;
+}
+.nav_icon li {
+  margin-left: 1.1em;
+}
+#login {
+  display: flex;
+  background-color: #0d0909ee;
+  position: fixed;
+  width: 700px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  top: -100%;
+  z-index: 10000000;
+  left: 30%;
+  border-radius: 40px;
+  opacity: 0;
+}
+
+.login_close {
+  position: absolute;
+  right: 5em;
+  top: 3em;
+  color: red;
+}
+.login_close span {
+  padding: 12px 18px;
+  border: solid 2.5px red;
+  border-radius: 50%;
+  font-weight: 700;
+  cursor: pointer;
+}
+.login_container {
+  color: white;
+  width: 800px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.login_title div:nth-child(1) {
+  font-weight: 700;
+  font-size: 2.3rem;
+  margin-bottom: 0.8em;
+}
+.input-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.3em;
+}
+.input-value {
+  border: solid 1px rgb(78, 76, 76);
+  border-radius: 30px;
+  padding: 15px 30px;
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 1.5em;
+  color: white;
+  outline-style: none;
+  background: none;
+  box-shadow: 0px 1px 5px #ff2020;
+}
+.input-value::placeholder {
+  color: white;
+  font-weight: 400;
+}
+.input-value:focus {
+  border: solid 1px rgb(187, 0, 0);
+  border-radius: 30px;
+}
+.btt-value {
+  margin-top: 2em;
+  border: solid 1px rgb(78, 76, 76);
+  border-radius: 30px;
+  padding: 15px 30px;
+  outline-style: none;
+  background: none;
+  cursor: pointer;
+  box-shadow: 0px 3px 5px #740000;
+}
+.btt-value span {
+  color: white;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+.btt-value:active {
+  transform: translateY(3px);
+  box-shadow: 0px 3px 0px #002fff00;
+}

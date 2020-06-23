@@ -1,0 +1,7 @@
+.main-img_container {
+  background-color: #0d0d0d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10.5em;
+}
