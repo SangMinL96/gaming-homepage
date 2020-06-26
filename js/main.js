@@ -47,38 +47,17 @@ function updateBtt() {
   }
 }
 goToSlide(0);
-/*
-slideRight.addEventListener("click", function () {
-  for (var i = 1; i < slidewin.length - 1; i++) {
-    slideContainer[0].style.left = i * -100 + "%";
-  }
-});
 
+const imgbtt = document.getElementsByClassName("img_nav");
+const imghover = document.getElementById("main_img-nav");
 
+for (var i = 0; i < imgbtt.length; i++) {
+  imgbtt[i].addEventListener("click", function (ev) {
+    for (var z = 0; z < imgbtt.length; z++) {
+      imgbtt[z].classList.remove("hover");
+      ev.target.classList.add("hover");
+    }
+  });
+}
 
-
- for (var i = 1; i < slidewin.length - 1; i++) {
-    slideContainer.style.left = i * -100 + "%";
-  }
-            var mhover=document.getElementById("mhover");
-           var mover=document.getElementById("mover");
-           mhover.addEventListener("mouseover", function(){
-           mover.style.display='block';
-           mover.classList.add('ani');
-
-           })
-
-
-           var mhover=document.getElementById("mhover");
-           var mover=document.getElementById("mover");
-           var nav_header=document.getElementById("nav_header");
-           function goto(){
-
-            mover.style.opacity='1';
-            mover.classList.add('ani');
-
-           }
-           mhover.addEventListener('mouseover',function(){
-           goto();
-           }
-           */
+add();

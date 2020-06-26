@@ -39,12 +39,12 @@
   color: #910505;
   font-size: 1.5rem;
 }
-.main_img-nav {
+#main_img-nav {
   margin-top: 16em;
   font-size: 0.8rem;
   color: #3d3434;
 }
-.main_img-nav span {
+#main_img-nav span {
   margin-right: 0.9em;
   cursor: pointer;
 }
@@ -125,4 +125,12 @@
 }
 #POST_left.disabled {
   display: none;
+}
+.img_nav {
+  padding: 1px 9px;
+  border-radius: 50px;
+  background-color: gray;
+}
+.img_nav.hover {
+  background-color: black;
 }
