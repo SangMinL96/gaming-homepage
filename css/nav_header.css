@@ -1,4 +1,4 @@
-.menu_nav {
+.menu_nav i {
   cursor: pointer;
 }
 .nav_header {
@@ -36,12 +36,12 @@
   background-color: #080808;
   position: absolute;
   left: 0;
-  top: 6em;
+  top: 5.3em;
   font-size: 0.91rem;
   width: 1150px;
   font-weight: 400;
   opacity: 0;
-  transition: all 0.3s ease-in;
+  transition: all 0.3s linear;
 }
 
 .PLATFORM_bar-title {
@@ -93,10 +93,10 @@
   font-size: 0.9rem;
   padding-bottom: 2em;
 }
-.menu_bar:hover .menu_bar-wrapper .PLATFORM_bar {
+.menu_bar:hover .PLATFORM_bar {
   opacity: 1;
-  z-index: 9999;
-  transform: translateY(-1.1em);
+  z-index: 999;
+  transform: translateY(-0.6em);
 }
 /*menu-bar*/
 
@@ -111,7 +111,7 @@
   overflow: auto;
   height: 935px;
   opacity: 0;
-  transition: 1s linear;
+  transition: 0.5s linear;
   z-index: 9999;
 }
 .menu_add-container {

@@ -6,7 +6,7 @@
 }
 .main_img-container {
   position: relative;
-  z-index: 10;
+
   color: white;
   height: 980px;
   width: 1150px;
@@ -68,20 +68,16 @@
 .TREDING-POSTS {
   position: absolute;
   display: flex;
-  left: -100%;
+  left: 0%;
+  transition: all 0.5s ease-in;
 }
-.slide_box-1 {
+.slide_box {
   width: 300px;
   height: 600px;
   margin-left: 35px;
   margin-right: 35px;
 }
-.slide_box-2 {
-  width: 300px;
-  height: 600px;
-  margin-left: 35px;
-  margin-right: 35px;
-}
+
 .TREDING-POSTS img {
   width: 90px;
   height: 90px;
@@ -103,4 +99,30 @@
 .TREDING_blog {
   display: flex;
   margin-top: 2em;
+}
+.POST_nav {
+  font-size: 1.18rem;
+  cursor: pointer;
+}
+#POST_right:hover {
+  color: red;
+}
+#POST_left:hover {
+  color: red;
+}
+#POST_right {
+  position: absolute;
+  right: 30px;
+  top: 38px;
+}
+#POST_left {
+  position: absolute;
+  right: 50px;
+  top: 38px;
+}
+#POST_right.disabled {
+  display: none;
+}
+#POST_left.disabled {
+  display: none;
 }
