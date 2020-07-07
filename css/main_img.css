@@ -1,5 +1,8 @@
-.main_img {
+#main_img {
   background-image: url(../img/blog-4.jpg);
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in;
 }
 .main_img-container img {
   width: 200px;
@@ -131,6 +134,7 @@
   border-radius: 50px;
   background-color: gray;
 }
+
 .img_nav.hover {
   background-color: black;
 }

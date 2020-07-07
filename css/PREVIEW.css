@@ -1,0 +1,90 @@
+.TREDING_silde-img img {
+  width: 255px;
+  height: 180px;
+}
+
+.PREVIEW-container {
+  position: relative;
+  background-color: #080808;
+  color: white;
+  height: 500px;
+}
+.PREVIEW-title {
+  width: 1150px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-top: 2.5em;
+  padding-bottom: 2.5rem;
+}
+.PREVIEW-title span {
+  margin-left: 0.7em;
+}
+
+#TREDING_silde {
+  width: 1150px;
+  height: 270px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: 080808;
+  position: relative;
+}
+#TREDING_silde-container {
+  position: absolute;
+  display: flex;
+  left: -25%;
+  transition: all 0.5s ease-in;
+}
+.TREDING_silde-list {
+  margin-left: 1em;
+  margin-right: 1em;
+  position: relative;
+}
+.TREDING_silde-list div:nth-child(2) {
+  width: 250px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.TREDING_silde-list div:nth-child(3) {
+  font-size: 0.95rem;
+  color: #666666;
+}
+.TREDING_silde-num {
+  right: 17px;
+  top: 12px;
+  padding: 13px 9px;
+  border-radius: 100%;
+  background-color: #000000ab;
+  font-size: 0.9rem;
+  font-weight: 700;
+  position: absolute;
+}
+.TREDING_check {
+  text-align: center;
+  margin-top: 2em;
+}
+.TREDING_check-list {
+  font-size: 0.5rem;
+  padding: 1px 6px;
+  background-color: bisque;
+  border-radius: 100%;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+.TREDING_nav {
+  position: absolute;
+  top: 70px;
+  right: 400px;
+}
+.TREDING_nav span {
+  font-size: 1.2rem;
+  margin-left: 0.2em;
+}
+#TREDING_left.disabled {
+  display: none;
+}
+#TREDING_right.disabled {
+  display: none;
+}

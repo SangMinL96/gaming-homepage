@@ -4,6 +4,7 @@
 @import "header_main-img.css";
 @import "nav_header.css";
 @import "main_img.css";
+@import "PREVIEW.css";
 * {
   box-sizing: border-box;
   list-style: none;
