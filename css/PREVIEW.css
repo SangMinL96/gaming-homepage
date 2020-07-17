@@ -61,30 +61,20 @@
   font-weight: 700;
   position: absolute;
 }
-.TREDING_check {
+.TREDING_nav {
   text-align: center;
   margin-top: 2em;
 }
-.TREDING_check-list {
+.TREDING_nav-list {
   font-size: 0.5rem;
   padding: 1px 6px;
   background-color: bisque;
   border-radius: 100%;
   margin-left: 0.5em;
   margin-right: 0.5em;
+  cursor: pointer;
 }
-.TREDING_nav {
-  position: absolute;
-  top: 70px;
-  right: 400px;
-}
-.TREDING_nav span {
-  font-size: 1.2rem;
-  margin-left: 0.2em;
-}
-#TREDING_left.disabled {
-  display: none;
-}
-#TREDING_right.disabled {
-  display: none;
+
+.TREDING_nav-list.active {
+  background-color: red;
 }

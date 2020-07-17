@@ -101,7 +101,7 @@
 /*menu-bar*/
 
 .menu_add {
-  width: 420px;
+  width: 22%;
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -109,7 +109,7 @@
   top: 0;
   background-color: #0d0d0d;
   overflow: auto;
-  height: 935px;
+  height: 100%;
   opacity: 0;
   transition: 0.5s linear;
   z-index: 9999;
