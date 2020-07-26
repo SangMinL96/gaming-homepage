@@ -15,6 +15,7 @@ function onChack() {
 function goToChack(id) {
   PV_slideContainer.style.left = id * -25 + "%";
 }
+
 /*
 function onChack() {
   for (let a = 0; a < PV_nav.length; a++) {

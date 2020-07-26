@@ -6,7 +6,7 @@ for (var i = 0; i < imgbtt.length; i++) {
     for (var z = 0; z < imgbtt.length; z++) {
       imgbtt[z].classList.remove("hover");
       ev.target.classList.add("hover");
-      console.dir(ev.target);
+     
     }
   });
 }
